@@ -22,21 +22,22 @@ main {
 }
 
 section#telefone {
-    width: 300px;
-    height: 559px;
-    background:  url(../imagens/iphone.png) no-repeat;
+    width: 280px;
+    height: 562px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
 }
 #tela{
     position: relative;
     top: 72px;
     left: 21px;
     width: 240px;
-    height: 426px;
+    height: 425px;
 }
 section#redes-sociais img{
     width: 40px;
